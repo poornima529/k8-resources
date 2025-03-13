@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: ebs-static
 spec:
-  storageClassicName: "" # Empty string must be explicitly set otherwise default storageClass will be set
+  storageClassName: "" # Empty string must be explicitly set otherwise default storageClass will be set
   # PV name
   volumeName: ebs-static
   accessModes:
